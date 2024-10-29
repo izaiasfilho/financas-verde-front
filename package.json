@@ -1,0 +1,45 @@
+{
+  "name": "financas-verde-front",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@primevue/themes": "^4.1.1",
+    "@vuepic/vue-datepicker": "^8.8.1",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.6",
+    "docxtemplater": "^3.49.1",
+    "fullcalendar": "^6.1.15",
+    "html2pdf.js": "^0.10.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "mammoth": "^1.8.0",
+    "pinia": "^2.1.7",
+    "pizzip": "^3.1.7",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.1.1",
+    "vue": "^3.4.29",
+    "vue-cal": "^4.10.0",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "electron": "^31.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.3.1"
+  }
+}
